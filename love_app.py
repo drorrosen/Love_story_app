@@ -52,4 +52,4 @@ combined_probability_unique_matches_birthday = ((2 / total_women_in_pool) ** 2) 
 st.write(f"The combined probability of meeting the two unique 'dream matches' in the whole pool of women aged 29-34, who also share the same birthday, is approximately {combined_probability_unique_matches_birthday:.10f} or {combined_probability_unique_matches_birthday * 100:.10f}%")
 
 # Display the probability equation for unique matches with same birthday
-st.latex(r"\text{Combined Probability for Unique Matches with Same Birthday} = \left( \frac{2}{\text{Total Women in Pool}} \right)^2 \times \frac{1}{365} \times \frac{1}10}")
+st.latex(r"\text{Combined Probability for Unique Matches with Same Birthday} = \left( \frac{2}{\text{Total Women in Pool}} \right)^2 \times \frac{1}{365} \times \frac{1}{10}")
